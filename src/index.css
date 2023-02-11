@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.screen__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  min-width: 1424px;
+  min-height: 800px;
+  background-color: rgb(47, 47, 47);
+
+  border-width: 15px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+ 
+  background-size: contain;
+}
+
+.windowsxp{
+  background-image: url("https://preview.redd.it/11adzxsvs4k41.jpg?auto=webp&s=6c4df0f7bc9a5577dc2d291bbc2e1da26cd808af");
+}
+
+.icon-image{
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 50px;
+}
+
+.screen-progressbar{
+  display: flex;
+  min-width: 220px;
+  min-height: 15px;
+
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.screen-progressbar__progress{
+  height: inherit;
+  border-radius: 9px;
+ 
+  background-color: #808080;
+}
+
+.screen-progressbar__progress:hover{
+ 
+  width: 70%;
+  
+}
+
